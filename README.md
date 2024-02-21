@@ -29,7 +29,6 @@ Our watches are powered by precision-engineered movements. This section explains
 ![Screenshot 2024-02-21 161102](https://github.com/joe-hadchity/L-Heure/assets/105626252/6a5cb0e9-7cf6-48fe-8416-ac3fb7d1603f)
 
 ![Movements](https://github.com/joe-hadchity/L-Heure/assets/105626252/395daf22-8413-4502-9fb3-71ff7f3a7c1d)
-
 *The heartbeat of L'Heure watches.*
 
 
@@ -44,7 +43,6 @@ Browse our exclusive watch collections. Each timepiece is presented in detail, a
 ![Screenshot 2024-02-20 210325](https://github.com/joe-hadchity/L-Heure/assets/105626252/e9389ca2-f61b-4322-9c34-5ab247cc553f)
 
 ![Watch Collection Display](https://github.com/joe-hadchity/L-Heure/assets/105626252/b4557e95-d2cb-462f-a056-ff3a10537cf8)
-
 
 *Discover the distinct collections of L'Heure.*
 
