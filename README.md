@@ -18,25 +18,27 @@ The home page introduces visitors to the world of L'Heure, setting the stage wit
 
 *A welcoming entrance to L'Heure's elegance.*
 
-### Manufacturing Excellence
-Dive deep into the heart of our watchmaking process. This section highlights our commitment to craftsmanship, showcasing the meticulous attention to detail in every piece.
-
-![Manufacturing Excellence](path/to/manufacturing_screenshot.jpg)
-*Behind the scenes of our manufacturing excellence.*
 
 ### Materials
 Discover the premium materials that set L'Heure watches apart. From rare metals to innovative composites, learn about the elements that contribute to the durability and beauty of our timepieces.
-
-![Materials](path/to/materials_screenshot.jpg)
+![Screenshot 2024-02-21 161138](https://github.com/joe-hadchity/L-Heure/assets/105626252/0c484f8b-8d15-45db-8641-b01f677f9b79)
 *The essence of luxury: our choice of materials.*
 
 ### Movements
 Our watches are powered by precision-engineered movements. This section explains the technology and artistry behind the mechanisms that drive L'Heure timepieces.
+![Screenshot 2024-02-21 161102](https://github.com/joe-hadchity/L-Heure/assets/105626252/6a5cb0e9-7cf6-48fe-8416-ac3fb7d1603f)
 
 ![Movements](https://github.com/joe-hadchity/L-Heure/assets/105626252/395daf22-8413-4502-9fb3-71ff7f3a7c1d)
 
 *The heartbeat of L'Heure watches.*
 
+
+### Manufacturing Excellence
+Dive deep into the heart of our watchmaking process. This section highlights our commitment to craftsmanship, showcasing the meticulous attention to detail in every piece.
+![Screenshot 2024-02-21 160401](https://github.com/joe-hadchity/L-Heure/assets/105626252/c1ebaf03-4d5b-4bb7-b89b-5b6dc2739b8c)
+
+
+*Behind the scenes of our manufacturing excellence.*
 ### Watch Collection Display
 Browse our exclusive watch collections. Each timepiece is presented in detail, allowing visitors to appreciate the unique features and aesthetics of our designs.
 ![Screenshot 2024-02-20 210325](https://github.com/joe-hadchity/L-Heure/assets/105626252/e9389ca2-f61b-4322-9c34-5ab247cc553f)
