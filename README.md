@@ -63,7 +63,7 @@ Find L'Heure boutiques globally. This interactive display guides you through our
 
 To explore the L'Heure website project locally:
 
-1. Clone the repository: `git clone https://github.com/yourusername/lheure-website.git`
+1. Clone the repository: `git clone https://github.com/joe-hadchity/L-Heure.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm start`
 4. Visit `http://localhost:3000` in your web browser to explore the site.
