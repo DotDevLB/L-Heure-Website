@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <!-- Your CSS styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Boutiques - L'HEURE</title>
+  </head>
+  <header>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+  </header>
+  <body>
+    <main>
+        <h1 class="page-title">OUR BOUTIQUES</h1>
+        <h2 class="main-title-alt">We have boutiques all over the world, in the most exclusive locations. Discover our global network.</h2>
+        <div class="search-bar">
+          <input type="text" class="search-input" placeholder="Search For our Boutiques..." style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-style: italic;"/>
+          <button class="search-button">
+            <i class="ri-search-line search-icon"></i>
+          </button>
+        </div>
+
+
+        <div class="boutique-cards">
+            <!-- Sample boutique card -->
+            <div class="boutique-card">
+              <img src="../img/boutique1.png" alt="Boutique Image" class="boutique-img" />
+              <h3 class="boutique-title">LONDON NEW BOND STREET</h3>
+              <p class="boutique-location">14 New Bond Street, London</p>
+              <p class="boutique-description">13:05</p>
+            </div>
+            <div class="boutique-card">
+                <img src="../img/boutique2.png" alt="Boutique Image" class="boutique-img" />
+                <h3 class="boutique-title">PARIS VENDOME</h3>
+                <p class="boutique-location">10 place, Paris,75001</p>
+                <p class="boutique-description">15:05</p>
+              </div>
+              <div class="boutique-card">
+                <img src="../img/boutique3.png" alt="Boutique Image" class="boutique-img" />
+                <h3 class="boutique-title">HONG KONG HERITAGE</h3>
+                <p class="boutique-location">2A Canoton Road Shop,1881Heritage,Hong Kong</p>
+                <p class="boutique-description">21:05</p>
+              </div>
+              <div class="boutique-card">
+                <img src="../img/boutique4.png" alt="Boutique Image" class="boutique-img" />
+                <h3 class="boutique-title">DUBAI MALL</h3>
+                <p class="boutique-location">along Sheigk Zayes Road Grand Altrium, Level_G, Dubai</p>
+                <p class="boutique-description">17:05</p>
+              </div>
+              <div class="boutique-card">
+                <img src="../img/boutique6.png" alt="Boutique Image" class="boutique-img" />
+                <h3 class="boutique-title">MONACO</h3>
+                <p class="boutique-location">Alle Francois Blanc, Monaco, 98000</p>
+                <p class="boutique-description">14:05</p>
+              </div>
+        </div>
+       
+      </main>
+      
+
+    <script src="../js/gsap.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/header_footer_fectch.js"></script>
+  </body>
+  <footer>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+  </footer>
+
+</html>

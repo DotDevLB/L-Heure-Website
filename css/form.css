@@ -1,0 +1,75 @@
+
+#contact {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact-form label,
+  #contact-form input,
+  #contact-form textarea,
+  #contact-form select,
+  #contact-form input[type="submit"],
+  #contact-form input[type="checkbox"] {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea,
+  #contact-form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  #contact-form textarea {
+    resize: vertical;
+  }
+  
+  #contact-form input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  
+  #contact-form input[type="submit"] {
+    padding: 12px 24px;
+    background-color:darkred;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  #contact-form input[type="submit"]:hover {
+    background-color: #af2900;
+  }
+  
+  /* Additional styles for dropdown */
+  #contact-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 12px;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23555555" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+  }

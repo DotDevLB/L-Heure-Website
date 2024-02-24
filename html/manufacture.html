@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <!-- Your CSS styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Manufacture - L'HEURE</title>
+  </head>
+  <header>
+    <div id="navbar-placeholder"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-placeholder').innerHTML = data;
+            });
+    </script>
+  </header>
+  <body>
+    
+      <div class="dual-image-container">
+        <div class="column-1">
+            <h2 class="outlined-text" style="font-size: 200px; -webkit-text-stroke: 2px rgb(0, 119, 167);">03</h2>
+        </div>
+        <div class="column-2">
+          <h2 class="page-title">MANUFACTURE</h2>
+          <h2>We have created a place to shape the future of watchmaking.</h2>
+          <br/>
+          <p>Looking towards the future, Hublot takes a new look at watchmaking by merging the innovation and tradition, the high-tech and expert craftsmanship and the machine precision and beauty of movement of its Manufacture. From the production of micro-components for movements to cases and dials, or from fundamental research to the development of innovative materials, watchmakers, physicists, chemists and engineers are united under the same roof, working in perfect synergy to create exceptional watches that endlessly push technical and aesthetic boundaries.</p>
+
+        </div>
+      </div>
+      <div class="dual-image-container">
+        <div class="column-1">
+          <img src="../img/building-logo.png" alt="Image 1" />
+        </div>
+        <div class="column-2">
+          <img src="../img/Running rate checks-1-original (1).jpeg" alt="Image 2" />
+        </div>
+      </div>
+
+    <script src="../js/gsap.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/header_footer_fectch.js"></script>
+  </body>
+  <footer>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
+  </footer>
+
+</html>

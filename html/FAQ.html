@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <!-- Your CSS styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Boutiques - L'HEURE</title>
+  </head>
+  <header>
+    <div id="navbar-placeholder"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar-placeholder").innerHTML = data;
+        });
+    </script>
+  </header>
+  <body>
+    <main>
+        <section class="faq">
+          <h1 class="main-title">Frequently Asked Questions</h1>
+    
+          <div class="faq-item">
+            <h3 class="faq-question">What payment methods do you accept?</h3>
+            <div class="faq-answer">
+              <p>We accept Visa, MasterCard, American Express, and PayPal.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <h3 class="faq-question">How do I return an item?</h3>
+            <div class="faq-answer">
+              <p>Please visit our Returns page for detailed instructions on returning items.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <h3 class="faq-question">Do you offer international shipping?</h3>
+            <div class="faq-answer">
+              <p>Yes, we offer international shipping to most countries. Shipping rates may vary.</p>
+            </div>
+          </div>
+           
+          
+          <div class="faq-item">
+            <h3 class="faq-question">What is your return policy?</h3>
+            <div class="faq-answer">
+              <p>We have a 30-day return policy. Please check our Returns page for detailed information.</p>
+            </div>
+          </div>
+         
+    
+        </section>
+      </main>
+
+    <script src="../js/header_footer_fectch.js"></script>
+    <script src="../js/FAQ.js"></script>
+  </body>
+  <footer>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+  </footer>
+</html>

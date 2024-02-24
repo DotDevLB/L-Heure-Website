@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+    <!-- Your CSS styles -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Materials - L'HEURE</title>
+  </head>
+  <header>
+    <div id="navbar-placeholder"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar-placeholder").innerHTML = data;
+        });
+    </script>
+  </header>
+  <body>
+    <main>
+      <div class="video-container">
+        <video autoplay muted loop disablecontrols>
+          <source src="../img/manufacture-machine-2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-text---==">
+          <h2 style="margin: 100%; margin-top: 150%">THE ART OF FUSION</h2>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="main-title-alt" style="margin-top: 50px; font-size: 50px">
+          “The L'Heure manufacture possesses all the necessary know-how and
+          infrastructure to make the future of watchmaking a reality today.”
+        </div>
+        <p>Joe Hadchity</p>
+        <p>CEO</p>
+      </div>
+
+      <div class="measurements" style="font-size: 30px">
+        <a href="materials.html" class="measurement nav__link">
+          <h3 class="outlined-text">01</h3>
+
+          <h3>MATERIALS</h3>
+          <p style="font-size: medium">The art of fusion</p>
+        </a>
+        <a href="movements.html" class="measurement nav__link">
+          <h3 class="outlined-text">02</h3>
+
+          <h3>MOVEMENTS</h3>
+          <p style="font-size: medium">Pioneering movements</p>
+        </a>
+        <a href="manufacture.html" class="measurement nav__link">
+          <h3 class="outlined-text">03</h3>
+
+          <h3>MANUFACTURE</h3>
+          <p style="font-size: medium">A manufacture of the future</p>
+        </a>
+      </div>
+    </main>
+    <script src="../js/gsap.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/header_footer_fectch.js"></script>
+  </body>
+  <footer>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+  </footer>
+</html>
